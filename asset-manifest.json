@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Mi-Portfolio/static/css/main.b626fba5.css",
+    "main.js": "/Mi-Portfolio/static/js/main.bf7f112e.js",
+    "static/media/Logo.png": "/Mi-Portfolio/static/media/Logo.d328e3c564c951c5fdca.png",
+    "static/media/construccion.jpg": "/Mi-Portfolio/static/media/construccion.ed25e02e527e3e068b90.jpg",
+    "static/media/miFoto.png": "/Mi-Portfolio/static/media/miFoto.a86a698f03e2b045759b.png",
+    "index.html": "/Mi-Portfolio/index.html",
+    "main.b626fba5.css.map": "/Mi-Portfolio/static/css/main.b626fba5.css.map",
+    "main.bf7f112e.js.map": "/Mi-Portfolio/static/js/main.bf7f112e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b626fba5.css",
+    "static/js/main.bf7f112e.js"
+  ]
+}
