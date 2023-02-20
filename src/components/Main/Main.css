@@ -1,0 +1,162 @@
+.contenedor{
+    position: absolute;
+    top: 14%;
+    left: 5%;
+}
+
+.nombre{
+    color: var(--verdeClaro);
+    font-size: 3em;
+    margin-top: -2%;
+    left: 10%;
+   
+}
+
+.titulo{
+    color: white;
+    font-size: 1.5em;
+    margin-top: -5%;
+}
+
+.data{
+    color: white;
+    font-size: 1.1em;
+    margin-top: 1%;
+    width: 50%;
+    text-align: justify;
+}
+
+.hola{
+    display: inline-block;
+    color: white;
+    font-size: 2em;
+    margin-right: 1%;
+    margin-bottom: 0%;
+}
+
+.soy{
+    display: inline-flex;
+    color: var(--verdeClaro);
+    font-size: 2em;
+}
+
+
+.hexa{
+    position: absolute;
+    background: url(./miFoto.png);
+    background-size: cover;
+    top: 0;
+    left: 120%;
+    height: 690px;
+    width: 510px;
+    /*clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);*/
+    clip-path: polygon(92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%, 79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, 20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%);
+    
+}
+
+  .checkOut{
+    position: absolute;
+    top: 160%;
+    font-size: 1.2em;
+    color: white;
+  }
+  
+  .btnlinkedin{
+    position: absolute;
+    top: 160%;
+    left: 25%;
+    width: 55px;
+    height: 60px;
+    color: white;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background-color: var(--verdeOscuro);
+    cursor: pointer;
+  }
+  
+.btnInsta{
+    position: absolute;
+    top: 160%;
+    left: 35%;
+    width: 55px;
+    height: 60px;
+    color: white;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background-color: var(--verdeOscuro);
+    cursor: pointer;
+    
+}
+
+.btnGitHub{
+    position: absolute;
+    top: 160%;
+    left: 45%;
+    width: 55px;
+    height: 60px;
+    color: white;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background-color: var(--verdeOscuro);
+    cursor: pointer;
+}
+
+.btnComu{
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    width: 100%;
+    height: 60%;
+}
+
+
+
+/*******************************************************RESPONSIVE*********************************************************************************/
+@media (max-width: 500px){
+  .nombre{
+    color: var(--verdeClaro);
+    font-size: 3em;
+    margin-top: -2%;
+    left: 10%;
+   
+}
+
+.titulo, .data, .hola, .soy, .hexa, .nombre, .checkOut{
+    display: none;
+}
+      
+  .btnlinkedin{
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    width: 55px;
+    height: 60px;
+    color: white;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background-color: var(--verdeOscuro);
+    cursor: pointer;
+  }
+  
+.btnInsta{
+    position: absolute;
+    top: 130px;
+    left: 5px;
+    width: 55px;
+    height: 60px;
+    color: white;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background-color: var(--verdeOscuro);
+    cursor: pointer;
+    
+}
+
+.btnGitHub{
+    position: absolute;
+    top: 250px;
+    left: 5px;
+    width: 55px;
+    height: 60px;
+    color: white;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background-color: var(--verdeOscuro);
+    cursor: pointer;
+}
+
+}

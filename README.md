@@ -12,3 +12,7 @@
 ---
 ##### **Se utilizo la version completa de REACT**
 ##### El proyecto tiene 5 componentes: Navbar, Main, Logodiv, Form, Footer con sus .css respetando colores y se utilizan efectos
+---
+### **Se instalo React Router**
+#### para al hacer click en los botones o menu y que muestre una web en construccion esto quedo sin funcionar (https://reactrouter.com/en/main)
+

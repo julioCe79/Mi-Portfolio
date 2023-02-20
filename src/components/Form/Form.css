@@ -1,0 +1,127 @@
+form{
+    position: absolute;
+    background-color: var(--verdeOscuro); 
+    left: 700px;
+    width: 250px;
+    height: 550px;
+    display: none;
+}
+
+.contieneForm{
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+input, textarea{
+    font-size: 0.9em;
+    width: 100px;
+    height: 30px;
+}
+
+textarea{
+    width:fit-content;
+    height:fit-content;
+    resize: none;
+}
+
+.grpInput{
+    margin-bottom: 30px;
+    max-width: 350px;
+    margin-left: 10px;
+}
+
+.grpInput, input{
+    width: 90%;
+}
+
+.btnSubmit{
+    position: absolute;
+    top: 500px;
+    margin-left: 50px;
+    width: 150px;
+}
+
+.btnHablar{
+    position: absolute;
+    min-width: 150px;
+    top: 300px;
+    right: 600px;
+    height: 50px;
+    color: white;
+    padding: 2px 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: var(--verdeOscuro);
+    text-align: center;
+  
+}
+
+.btnHablar:hover {
+    background-color: var(--verdeClaro);
+}
+
+
+
+/**************************************************RESPONSIVE*****************************************************************/
+@media (max-width: 500px){
+   
+    .btnHablar{
+        position: absolute;
+        top: 550px;
+        right: -200px;
+        min-width: 300px;
+        height: 60px;
+        color: white;
+        padding: 2px 5px;
+        font-size: 1.5em;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: inline-block;
+        outline: none;
+        border-radius: 15px;
+        border: none;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+        background: var(--verdeOscuro);
+        text-align: center;
+    
+    }
+
+    .grpInput{
+        margin-bottom: 30px;
+        width: 550px;
+        margin-left: 10px;
+    }
+    
+    .grpInput, input{
+        width: 90%;
+    }
+    
+    .btnSubmit{
+        margin-left: 50px;
+        width: 150px;
+        font-size: 1em;
+    }
+
+    form{    
+        position: absolute;
+        top: -55px;         
+        left: -70px;
+        position: absolute;
+        background-color: var(--verdeOscuro); 
+        width: 250px;
+        height: 550px;
+        
+
+    }
+   
+}

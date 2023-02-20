@@ -1,0 +1,160 @@
+.menu {
+    display: flex;  
+    width: 100%;
+    justify-content: space-between;
+   
+    font-size: 1.5em;
+   
+  }
+  
+
+ul{ 
+    display: flex;  
+    position: absolute;
+    left: 40%;
+    list-style: none;
+}
+
+ul li{
+  margin-right: 1rem;
+}
+
+a{
+  display: flex;
+  text-decoration: none;
+  color: white;
+    
+}
+
+a:hover{
+  color: var(--verdeClaro);
+}
+
+ul li{
+  margin-right: 50%;
+}
+
+.btnHambur, .clicHambur{
+  color: var(--verdeClaro);
+  display: none;
+
+}
+
+
+
+/*****************************************************BOTON BUSCAR***************************************************/
+
+.inputBuscar {
+  display: flex;
+  top:-30%;
+  left: 300%;
+  width: 50%;
+  position: absolute;
+  padding: 10px 20px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  font-size: 1rem;
+  border: 2px solid var(--verdeOscuro);
+  background-color: #303030;
+
+}
+
+.inputBuscar:focus {
+  color: var(--verdeClaro);
+  
+}
+
+.inputBuscar:hover {
+  border-color: var(--verdeClaro);
+
+}
+svg{
+  display: flex;
+  position: absolute;
+  top: 6%;
+  left: 350%;
+}
+
+
+/***************************************************************RESPONSIVE***********************************************************/
+@media (max-width: 500px){
+  
+
+  .btnHambur{ 
+    display: block;
+    position: fixed;  
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+
+  }
+ 
+  .menu{
+   display: block;
+   position: fixed;
+   top: 80px;
+   height: 100vh;
+   right: 0;
+   
+  }
+
+
+  ul{
+    display: block;
+    position: fixed;
+    right: -300%;
+   
+  }
+  ul li{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+   
+
+  }
+
+  .clicHambur:checked ~ ul{
+   right: 0;
+  
+  }
+
+  a{
+    min-width: 200px;
+    height: 40px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: var(--verdeOscuro);
+    overflow: hidden;
+    border: 2px solid var(--verdeClaro);
+    text-align: center;
+    
+  }
+
+  a:hover {
+    color: var(--verdeOscuro);
+  }
+  a:hover:after{
+    width: 100%;
+  }
+  a:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: var(--verdeClaro);
+  }
+  
+}
+
+
+
